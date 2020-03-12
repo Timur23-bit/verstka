@@ -1,0 +1,55 @@
+body, h1, h2, h3, h4, p, a {
+    margin: 0;
+    font-size:100%;
+    font-weight: normal;
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    width: 1980px;
+    height: 1080px;
+    background-color: #eff6ff;
+    display: block;
+}
+.general{
+    width: 100%;
+    height: 100%;
+    position: center;
+    display: block;
+}
+.fon{
+    height: 90%;
+    width: 90%;
+    display:block;
+    margin: 5% 5% 5% 5%;
+
+}
+.left{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 4%;
+    padding-left: 4%;
+
+}
+.right{
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    background: white;
+    float: right;
+    padding: 5% 5% 5% 5%;
+
+}
+
+.img{
+    height: 100%;
+    width: 50%;
+    padding:0;
+    margin:0;
+    position: left;
+}
