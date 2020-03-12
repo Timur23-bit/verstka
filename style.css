@@ -36,7 +36,7 @@ h4{
         width: 90%;
         display: block;
         margin: 5% 5% 5% 5%;
-
+        box-shadow: 0 0 10px 10px rgba(221, 221, 221, 1)
     }
 
     .left {
@@ -117,7 +117,7 @@ h4{
         margin-left: 280px;
 
     }
-    input{
+    .Email{
         height: 40px;
         border: 0;
         width: 290px;
@@ -126,9 +126,19 @@ h4{
         opacity: 1;
         padding-left: 5px;
         font-size: 18px;
-
+    }
+    .Phone{
+        height: 40px;
+        border: 0;
+        width: 290px;
+        font-family: barlow, serif;
+        position: absolute;
+        opacity: 1;
+        padding-left: 5px;
+        font-size: 18px;
     }
     fieldset{
+        color: #eee;
         height: 70px;
         border-style: solid;
         width: 300px;
@@ -137,11 +147,40 @@ h4{
         position: relative;
         margin-left: 20px;
         margin-right: 20px;
-
+        margin-bottom: 70px;
     }
-    p{
+    .Em,.Ph {
         color: lightslategray;
     }
+    p{
+        font-size: 18px;
+    }
+    .vibor{
+        display: flex;
+        position: relative;
+        margin-bottom: 1rem;
+    }
+    .col{
+        width: 100px;
+        height: 20px;
+        margin-top: 70px;
+        font-size: 18px;
+        margin-left: 30px;
+    }
+.check{
+    color: lightslategray;
+    margin-top: 70px;
+}
+.acc{
+    margin-top: 70px;
+    border-radius: 10px;
+    height: 60px;
+    width: 350px;
+    background-color: #3698FB;
+    font-size: 20px;
+    font-style: initial;
+    color: white;
+}
     @font-face {
         font-family: 'barlow';
         src: url('Barlow-Light.otf') format('truetype');
