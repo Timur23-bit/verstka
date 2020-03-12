@@ -1,55 +1,107 @@
-body, h1, h2, h3, h4, p, a {
-    margin: 0;
-    font-size:100%;
-    font-weight: normal;
-}
-* {
-    box-sizing: border-box;
-}
-body{
-    width: 1980px;
-    height: 1080px;
-    background-color: #eff6ff;
-    display: block;
-}
-.general{
-    width: 100%;
-    height: 100%;
-    position: center;
-    display: block;
-}
-.fon{
-    height: 90%;
-    width: 90%;
-    display:block;
-    margin: 5% 5% 5% 5%;
 
+    body, h1, h2, h3, h4, h5{
+        margin: 0;
+        font-size: 100%;
+        font-weight: normal;
+        font-family: barlow, serif;
+    }
+h1{
+    font-size: 38px;
+    margin-bottom: 3%;
 }
-.left{
-    display: inline-block;
-    width: 50%;
-    height: 100%;
-    background-image: url("bg.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding-top: 4%;
-    padding-left: 4%;
-
-}
-.right{
-    display: inline-block;
-    height: 100%;
-    width: 50%;
-    background: white;
-    float: right;
-    padding: 5% 5% 5% 5%;
-
+h4{
+    font-size: 24px;
 }
 
-.img{
-    height: 100%;
-    width: 50%;
-    padding:0;
-    margin:0;
-    position: left;
-}
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 1980px;
+        height: 1280px;
+        background-color: #eff6ff;
+        display: block;
+    }
+
+    .general {
+        width: 100%;
+        height: 100%;
+        position: center;
+        display: block;
+    }
+
+    .fon {
+        height: 90%;
+        width: 90%;
+        display: block;
+        margin: 5% 5% 5% 5%;
+
+    }
+
+    .left {
+        display: inline-block;
+        width: 50%;
+        height: 100%;
+        background-image: url("bg.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding-left: 3%;
+
+    }
+
+    .right {
+        display: inline-block;
+        height: 100%;
+        width: 50%;
+        background: white;
+        float: right;
+        padding: 5% 5% 5% 5%;
+    }
+    .fb{
+        height: 25px;
+        margin-right: 10px;
+        position: center;
+    }
+    .face{
+
+        margin-top: 60px;
+        background-color: #255A9B;
+        color: white;
+        height: 50px;
+        width: 300px;
+        font-family: barlow, serif;
+        border: 0;
+        float: left;
+        margin-right: 70px;
+        font-size: 18px;
+        padding-right: 70px;
+    }
+    .in{
+        margin-top: 60px;
+        background-color: #0076B6;
+        color: white;
+        height: 50px;
+        width: 300px;
+        font-family: barlow, serif;
+        border: 0;
+        float: left;
+        font-size: 18px;
+        padding-right: 60px;
+        padding-left: 5px;
+    }
+
+    .img {
+        margin:0;
+        height: 8%;
+        width: 20%;
+        float: top;
+    }
+    @font-face {
+        font-family: 'barlow';
+        src: url('Barlow-Light.otf') format('truetype');
+        font-style: normal;
+        font-weight: normal;
+    }
+
+
